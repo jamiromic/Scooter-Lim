@@ -1,0 +1,73 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+
+}
+
+.logo{
+  /* Ho ridimensionato il logo in origine più grande */
+   width: 20%;
+
+}
+
+.text-head{
+  color: #00CD00;
+  font-size: 23px;
+  font-family: avantgarde;
+
+}
+
+.container{
+  /* Ho inserito qui tutta la formattazione per il container */
+  text-align: center;
+  margin: 185px;
+  margin-top: 40px;
+  /* Ho inserito background rgba perchè con l'opacity mi rendeva anche tutto il contenuto trasparente */
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+
+}
+
+nav{
+  background-color: #00CD00;
+  padding: 10px;
+
+}
+
+section{
+  text-align: left;
+  color: white;
+
+
+}
+
+.title{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.line1{
+  background-color: orange;
+  height: 25px;
+  width: 285px;
+  border-radius: 5px;
+
+}
+
+.line2{
+  background-color: #00CD00;
+  height: 25px;
+  width: 450px;
+  border-radius: 5px;
+
+}
+
+.line3{
+  background-color: red;
+  height: 25px;
+  width: 130px;
+  border-radius: 5px;
+
+}
